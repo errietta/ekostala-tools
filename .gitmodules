@@ -1,0 +1,3 @@
+[submodule "dotfiles_copy"]
+	path = dotfiles_copy
+	url = git@github.com:errietta/dotfiles_copy.git

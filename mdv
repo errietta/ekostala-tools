@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Requires pandoc and lynx
+# Converts a markdown file to HTML then displays it.
+# Useful for displaying md files in the commandline
+# source: https://unix.stackexchange.com/a/120519
+
+# Usage: mdv MarkdownFile.md
+
+pandoc $1 | lynx -stdin

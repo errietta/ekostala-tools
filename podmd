@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Converts POD to markdown
+# Source: https://metacpan.org/pod/Pod::Markdown
+# usage: podmd path/to/pod MarkdownName.md
+
+perl -MPod::Markdown -e 'Pod::Markdown->new->filter(@ARGV)' $1 > $2
